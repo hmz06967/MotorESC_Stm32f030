@@ -7476,68 +7476,96 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TLV73333PDBVT">
+<library name="SparkFun-IC-Power" urn="urn:adsk.eagle:library:526">
+<description>&lt;h3&gt;SparkFun Power Driver and Management ICs&lt;/h3&gt;
+In this library you'll find anything that has to do with power delivery, or making power supplies.
+&lt;p&gt;Contents:
+&lt;ul&gt;&lt;li&gt;LDOs&lt;/li&gt;
+&lt;li&gt;Boost/Buck controllers&lt;/li&gt;
+&lt;li&gt;Charge pump controllers&lt;/li&gt;
+&lt;li&gt;Power sequencers&lt;/li&gt;
+&lt;li&gt;Power switches&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SOT95P280X145-5N">
-<circle x="-2.41" y="1.05" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.41" y="1.05" radius="0.1" width="0.2" layer="51"/>
-<text x="-2.6" y="2" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.6" y="-2" size="1.016" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-0.33" y1="1.45" x2="0.33" y2="1.45" width="0.127" layer="21"/>
-<wire x1="0.8" y1="0.335" x2="0.8" y2="-0.335" width="0.127" layer="21"/>
-<wire x1="0.33" y1="-1.45" x2="-0.33" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.127" layer="51"/>
-<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-2.11" y1="1.7" x2="2.11" y2="1.7" width="0.05" layer="39"/>
-<wire x1="2.11" y1="1.7" x2="2.11" y2="-1.7" width="0.05" layer="39"/>
-<wire x1="2.11" y1="-1.7" x2="-2.11" y2="-1.7" width="0.05" layer="39"/>
-<wire x1="-2.11" y1="-1.7" x2="-2.11" y2="1.7" width="0.05" layer="39"/>
-<smd name="1" x="-1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="2" x="-1.255" y="0" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="3" x="-1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="4" x="1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="5" x="1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
+<package name="SOT223" urn="urn:adsk.eagle:footprint:39019/1" library_version="1">
+<description>&lt;b&gt;SOT-223&lt;/b&gt;</description>
+<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="3.2766" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.2032" layer="21"/>
+<wire x1="-3.2766" y1="1.651" x2="3.2766" y2="1.651" width="0.2032" layer="21"/>
+<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
+<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
+<text x="-0.8255" y="4.5085" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0795" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
+<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
+<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
+<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOT223" urn="urn:adsk.eagle:package:39069/1" type="box" library_version="1">
+<description>SOT-223</description>
+<packageinstances>
+<packageinstance name="SOT223"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="TLV73333PDBVT">
-<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.41" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.41" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.41" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.41" layer="94"/>
-<text x="-12.7" y="8.62" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-12.7" y="-11.62" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<pin name="IN" x="-17.78" y="5.08" length="middle" direction="in"/>
-<pin name="EN" x="-17.78" y="0" length="middle"/>
-<pin name="OUT" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="GND" x="17.78" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<symbol name="78ADJ" urn="urn:adsk.eagle:symbol:39021/1" library_version="1">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95" font="vector">ADJ</text>
+<text x="-4.445" y="-0.635" size="1.524" layer="95" font="vector">IN</text>
+<text x="0.889" y="-2.667" size="1.524" layer="95" font="vector">OUT</text>
+<text x="0.889" y="-0.889" size="1.524" layer="95" font="vector">OUT</text>
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
+<pin name="ADJ" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<pin name="OUT@1" x="7.62" y="-2.54" visible="off" length="short" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TLV73333PDBVT" prefix="U">
-<description> &lt;a href="https://pricing.snapeda.com/parts/TLV73333PDBVT/Texas%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<deviceset name="V_REG_LM1117" urn="urn:adsk.eagle:component:39102/1" prefix="U" uservalue="yes" library_version="1">
+<description>&lt;b&gt;Voltage Regulator LM1117&lt;/b&gt;
+Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU : COM-00595</description>
 <gates>
-<gate name="G$1" symbol="TLV73333PDBVT" x="0" y="0"/>
+<gate name="G$1" symbol="78ADJ" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT95P280X145-5N">
+<device name="SOT223" package="SOT223">
 <connects>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="OUT@1" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39069/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" 300-mA, capacitor-free, low-IQ, low-dropout voltage regulator with enable "/>
-<attribute name="MF" value="Texas Instruments"/>
-<attribute name="MP" value="TLV73333PDBVT"/>
-<attribute name="PACKAGE" value="SOT-23-5 Texas Instruments"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TLV73333PDBVT/?ref=eda"/>
+<attribute name="PROD_ID" value="VREG-08170" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7669,7 +7697,6 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <part name="IC4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM321?*" device="MF" package3d_urn="urn:adsk.eagle:package:16456/2"/>
 <part name="SUPPLY22" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY23" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="+3.3V" device="" value="+3.3V"/>
-<part name="U11" library="TLV73333PDBVT" deviceset="TLV73333PDBVT" device=""/>
 <part name="SUPPLY24" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY25" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND" device="" value="GND"/>
 <part name="SUPPLY26" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND" device="" value="GND"/>
@@ -7680,6 +7707,7 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <part name="C7" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_" value="100nF"/>
 <part name="C9" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_" value="100nF"/>
 <part name="C14" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_" value="100nF"/>
+<part name="U11" library="SparkFun-IC-Power" library_urn="urn:adsk.eagle:library:526" deviceset="V_REG_LM1117" device="SOT223" package3d_urn="urn:adsk.eagle:package:39069/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7743,14 +7771,14 @@ LED CIKISI EKLE
 <instance part="SUPPLY1" gate="G$1" x="162.56" y="177.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="165.608" y="177.927" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="167.64" y="246.38" smashed="yes" rot="R270">
-<attribute name="VALUE" x="173.228" y="246.507" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY2" gate="G$1" x="167.64" y="243.84" smashed="yes" rot="R270">
+<attribute name="VALUE" x="173.228" y="243.967" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="170.18" y="233.68" smashed="yes">
-<attribute name="VALUE" x="170.18" y="231.14" size="1.778" layer="96" align="center"/>
+<instance part="SUPPLY10" gate="G$1" x="170.18" y="226.06" smashed="yes">
+<attribute name="VALUE" x="170.18" y="223.52" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="119.38" y="246.38" smashed="yes" rot="R90">
-<attribute name="VALUE" x="113.792" y="246.253" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="119.38" y="243.84" smashed="yes" rot="R90">
+<attribute name="VALUE" x="113.792" y="243.713" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="C6" gate="G$1" x="215.9" y="236.22" smashed="yes">
 <attribute name="NAME" x="218.44" y="238.76" size="1.778" layer="95"/>
@@ -8091,10 +8119,6 @@ LED CIKISI EKLE
 <instance part="SUPPLY23" gate="G$1" x="353.06" y="170.18" smashed="yes">
 <attribute name="VALUE" x="352.933" y="173.228" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U11" gate="G$1" x="142.24" y="241.3" smashed="yes">
-<attribute name="NAME" x="129.54" y="249.92" size="2.0828" layer="95" ratio="10" rot="SR0"/>
-<attribute name="VALUE" x="129.54" y="229.68" size="2.0828" layer="96" ratio="10" rot="SR0"/>
-</instance>
 <instance part="SUPPLY24" gate="G$1" x="327.66" y="137.16" smashed="yes">
 <attribute name="VALUE" x="327.66" y="134.62" size="1.778" layer="96" align="center"/>
 </instance>
@@ -8129,6 +8153,10 @@ LED CIKISI EKLE
 <instance part="C14" gate="G$1" x="327.66" y="147.32" smashed="yes">
 <attribute name="NAME" x="330.2" y="149.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="330.2" y="147.32" size="1.778" layer="96"/>
+</instance>
+<instance part="U11" gate="G$1" x="142.24" y="243.84" smashed="yes">
+<attribute name="NAME" x="144.78" y="236.22" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="144.78" y="233.68" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -8321,9 +8349,10 @@ LED CIKISI EKLE
 <wire x1="353.06" y1="152.4" x2="353.06" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY10" gate="G$1" pin="GND"/>
-<wire x1="160.02" y1="236.22" x2="170.18" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="228.6" x2="142.24" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="ADJ"/>
+<wire x1="142.24" y1="236.22" x2="142.24" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="327.66" y1="139.7" x2="327.66" y2="142.24" width="0.1524" layer="91"/>
@@ -8462,9 +8491,12 @@ LED CIKISI EKLE
 <pinref part="SUPPLY23" gate="G$1" pin="+3.3V"/>
 </segment>
 <segment>
-<pinref part="U11" gate="G$1" pin="OUT"/>
 <pinref part="SUPPLY2" gate="G$1" pin="+3.3V"/>
-<wire x1="160.02" y1="246.38" x2="167.64" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="243.84" x2="167.64" y2="243.84" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="OUT"/>
+<pinref part="U11" gate="G$1" pin="OUT@1"/>
+<wire x1="149.86" y1="241.3" x2="149.86" y2="243.84" width="0.1524" layer="91"/>
+<junction x="149.86" y="243.84"/>
 </segment>
 </net>
 <net name="+12V" class="1">
@@ -8595,11 +8627,8 @@ LED CIKISI EKLE
 </segment>
 <segment>
 <pinref part="SUPPLY11" gate="G$1" pin="+12V"/>
+<wire x1="134.62" y1="243.84" x2="119.38" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="U11" gate="G$1" pin="IN"/>
-<wire x1="119.38" y1="246.38" x2="124.46" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="EN"/>
-<wire x1="124.46" y1="241.3" x2="124.46" y2="246.38" width="0.1524" layer="91"/>
-<junction x="124.46" y="246.38"/>
 </segment>
 </net>
 <net name="EMFC" class="0">
