@@ -4,6 +4,8 @@ Working please download and test
 
 #### video (https://www.youtube.com/watch?v=FIM-RrpVAwA)
 
+firmware https://github.com/hmz06967/MotorEsc_Firmware
+
 ## Ekran Görüntüleri
 
 ![Uygulama Görüntüsü](/image/bottom.png)
